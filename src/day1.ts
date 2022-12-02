@@ -2,7 +2,7 @@ import { readFile } from 'fs';
 
 const snacksPerElf: number[][] = [];
 
-readFile('./day1input.txt', 'utf8', (err, data) => {
+readFile('./src/day1input.txt', 'utf8', (err, data) => {
     if (err) {
         console.error(err);
         return;

@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "day1": "tsc day1.ts && node day1.js",
+    "day1": "tsc src/day1.ts && node src/day1.js",
+    "day2": "tsc src/day2.ts && node src/day2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^4.9.3"
-  },
   "devDependencies": {
-    "@types/node": "^18.11.10"
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
   }
 }
