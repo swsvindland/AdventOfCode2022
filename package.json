@@ -7,6 +7,7 @@
     "day1": "tsc src/day1.ts && node src/day1.js",
     "day2": "tsc src/day2.ts && node src/day2.js",
     "day3": "tsc src/day3.ts && node src/day3.js",
+    "day4": "tsc src/day4.ts && node src/day4.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
